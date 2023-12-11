@@ -1,0 +1,14 @@
+regex==2021.8.3
+pandas==1.4.2
+torch==1.11.0
+numpy==1.22.3
+tqdm~=4.64.0
+nltk~=3.7
+transformers==4.18.0
+gensim==3.8.1
+scikit-learn==1.0.2
+six==1.16.0
+PyYAML==6.0
+setuptools==65.5.0
+torchtext==0.12.0
+scipy==1.8.0
