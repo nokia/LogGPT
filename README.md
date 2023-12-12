@@ -1,5 +1,7 @@
 # LogGPT: Log Anomaly Detection via GPT
-This repository contains a Pytorch implementation of [LogGPT](https://arxiv.org/abs/2309.14482), a novel model that employs GPT for log anomaly detection. `LogGPT` is first trained to predict the next log entry based on the preceding sequence. To further enhance the performance of `LogGPT`, a novel reinforcement learning (RL) strategy is proposed to finetune the model specifically for the log anomaly detection task.
+This repository contains a Pytorch implementation of [LogGPT](https://arxiv.org/abs/2309.14482), a novel model that employs GPT for log anomaly detection. `LogGPT` is first trained to predict the next log entry based on the preceding sequence ((a) Pre-training). To further enhance the performance of `LogGPT`, a novel reinforcement learning (RL) strategy is proposed to finetune the model specifically for the log anomaly detection task ((b) Fine-tuning).
+
+![alt text](img/LogGPT.PNG)
 
 ## Configuration
 - Ubuntu 20.04
